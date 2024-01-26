@@ -3,6 +3,12 @@
 # %% auto 0
 __all__ = ['temp', 'lear', 'categories', 'image', 'label', 'examples', 'intf', 'classify_image']
 
+# %% ../app.ipynb 2
+%pip install -q gradio
+
+# %% ../app.ipynb 4
+%pip install -Uqq fastai fastbook
+
 # %% ../app.ipynb 5
 from fastai.vision.all import *
 import gradio as gr
